@@ -26,12 +26,12 @@ function AddMovie() {
       </div>
 
       <div className={classes.singleRow}>
-        <div>Movie Tags</div>
+        <div> All Movie Tags</div>
         <FormGroup>
-          <FormControlLabel control={<Checkbox />} label="Romantic" color="success" />
-          <FormControlLabel control={<Checkbox />} label="Action" color="success" />
-          <FormControlLabel control={<Checkbox />} label="Horror" color="success" />
-          <FormControlLabel control={<Checkbox />} label="Comedy" color="success" />
+          <FormControlLabel control={<Checkbox />} label="Romantic"  />
+          <FormControlLabel control={<Checkbox />} label="Action"  />
+          <FormControlLabel control={<Checkbox />} label="Horror"  />
+          <FormControlLabel control={<Checkbox />} label="Comedy"  />
         </FormGroup>
       </div>
       <div className={classes.singleRow}>
