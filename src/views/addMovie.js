@@ -21,7 +21,7 @@ function AddMovie() {
           multiline
           fullWidth
           rows={4}
-        //defaultValue="Type here..."
+        defaultValue="Type here..."
         />
       </div>
 
